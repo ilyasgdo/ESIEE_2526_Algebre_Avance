@@ -1,5 +1,8 @@
 import numpy as np
 import matplotlib.pyplot as plt
+################################################################
+## ILYAS GHANDAOUI E4FI 2025 2026
+################################################################
 
 def phi1(x):
     if x<0 or x>1 :
@@ -24,13 +27,8 @@ def phi4(x):
 
     return x**2*(x-1)
 
-
-
-
-
 def foncHermite(X, Y, V, x):
    
-    
     
     if len(X) == 0:
         return 0
@@ -87,7 +85,6 @@ def plot_hermite_interpolation(X, Y, V):
 if __name__ == '__main__':
     import math
 
-   
 
     X=[-5,-2,0,3,6]
     Y=[-4,-1,1,1,-1]
